@@ -1,13 +1,12 @@
-PIERA PRIVATE prototype 0.1
+PIERA PRIVATE v0.2 - Matrix connectivity diagnostic (NOT a secure messenger yet)
 
-This is an interface-only PWA starter, NOT a secure messenger.
-No server, login, encryption, or message sending is included.
-Do not use this to exchange sensitive information.
+Files: index.html, icon.svg, manifest.webmanifest, sw.js
 
-Android use:
-1. Extract the ZIP.
-2. Edit or deploy these files via a mobile-friendly static hosting service with HTTPS.
-3. Open the HTTPS URL in Chrome > Add to Home screen / Install app.
+Upload all four files to the ROOT of the existing GitHub Pages repository.
+Overwrite index.html and add the other files. Do not upload this ZIP itself.
 
-A local file:// opening may show the UI, but PWA installation/service workers require HTTPS or localhost.
-Future work: secure authentication, vetted Matrix E2EE client integration, device verification, two-device testing, independent security review.
+What works: mobile app UI, local-only chat mockup, real HTTPS diagnostic of /_matrix/client/versions on a Matrix homeserver.
+What does NOT work: Matrix login, real messages, E2EE, anonymous identity, trusted key verification.
+NEVER enter passwords, recovery keys, or access tokens into this demo. Do not use it for sensitive communication.
+
+Important: test uses a public endpoint. Browser CORS restrictions may affect results.
