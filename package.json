@@ -1,0 +1,29 @@
+{
+  "name": "piera-private",
+  "version": "1.0.0",
+  "description": "Piera Private",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta1923-dotcom/piera-private.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ta1923-dotcom/piera-private/issues"
+  },
+  "homepage": "https://github.com/ta1923-dotcom/piera-private#readme",
+  "dependencies": {
+    "matrix-js-sdk": "^44.0.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}
